@@ -1,0 +1,6 @@
+framework module ProatomicSwizzling {
+  umbrella header "ProatomicSwizzling.h"
+
+  export *
+  module * { export * }
+}

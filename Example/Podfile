@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ProatomicSwizzling_Example' do
+  pod 'ProatomicSwizzling', :path => '../'
+
+  target 'ProatomicSwizzling_Tests' do
+    inherit! :search_paths
+
+#pod 'FBSnapshotTestCase'
+  end
+end
